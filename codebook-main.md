@@ -7,7 +7,7 @@ Version Date: January 2021
 This codebook describes the variables contained in the main district court 
 dataset we analyze in the article. To create this dataset, we merged data from
 the FJC's Integrated Database (IDB) with original data we collected from docket
-sheets available in each district court's electronic databases.
+sheets available in each district court's electronic database.
 
 We will not describe the FJC IDB variables in detail here, and instead refer 
 readers to the comprehensive codebooks available at 
@@ -69,7 +69,7 @@ see the article and the online appendix.
   which the case was filed. 
 
 ### Judge-related variables
-- `jrepublican` A dummy variable indicating whether case was assigned to a 
+- `jrepublican` A dummy variable indicating whether the case was assigned to a 
   Republican appointee.
 - `jpresident` A categorical variable indicating the assigned judge's appointing
   president. 
@@ -77,7 +77,7 @@ see the article and the online appendix.
   judge presiding over cases. 
 - `jyears` An integer indicating the number of years the assigned judge had been 
   on the bench at the year of each case's filing in court. 
-- `judge_replaced` A dummy variable indicating whether original judge was 
+- `judge_replaced` A dummy variable indicating whether the original judge was 
   replaced (e.g., through reassignment, see discussion in the online appendix). 
 - `jsenior` A dummy variable indicating whether each case was assigned to a 
   senior judge. 
