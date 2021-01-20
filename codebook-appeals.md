@@ -7,7 +7,7 @@ Version Date: January 2021
 This codebook describes the variables contained in the main district court 
 dataset we analyze in the article. To create this dataset, we merged data from
 the FJC's Integrated Database (IDB) with original data we collected from docket
-sheets available in each district court's electronic databases.
+sheets available in each district court's electronic database.
 
 We will not describe the FJC IDB variables in detail here, and instead refer 
 readers to the comprehensive codebooks available at 
@@ -112,12 +112,12 @@ originating district court case._
   representing the appellees listed on the appeal.
 - `aplt_att_count` An integer variable indicating the number of attorneys 
   representing the appellants listed on the appeal.
-- `aplt_deft` A dummy variable indicating whether appellant(s) was the defendant 
+- `aplt_deft` A dummy variable indicating whether the appellant(s) was the defendant 
   in the originating district court case.
-- `aplt_pltf` A dummy variable indicating whether appellant(s) was the plaintiff 
+- `aplt_pltf` A dummy variable indicating whether the appellant(s) was the plaintiff 
   in the originating district court case.
-- `apltprose` A dummy variable indicating whether appellant(s) was a pro se 
+- `apltprose` A dummy variable indicating whether the appellant(s) was a pro se 
   litigant.
-- `apleprose` A dummy variable indicating whether appellee(s) was a pro se 
+- `apleprose` A dummy variable indicating whether the appellee(s) was a pro se 
   litigant.
-- `bothprose` A dummy variable indicating whether both were pro se litigants.
+- `bothprose` A dummy variable indicating whether both the appellant(s) and the appellee(s) were pro se litigants.
